@@ -16,7 +16,7 @@ export default function MainBanner() {
         </div>
         <div className="main-banner-container-col-2">
         <div className="main-banner-container-col-2-content">
-          {/* <p><span id='rajab-name'>&lt;Hello! I'm Rajab/&gt;</span> a passionate Web Developer. I create sleek, functional, and user-focused websites that bring ideas to life online. With expertise in modern web technologies, I focus on building dynamic, responsive sites that make an impact. Let’s make something great together!</p> */}
+          <p><span id='rajab-name'>&lt;Hello! I'm Rajab/&gt;</span> a passionate Web Developer. I create sleek, functional, and user-focused websites that bring ideas to life online. With expertise in modern web technologies, I focus on building dynamic, responsive sites that make an impact. Let’s make something great together!</p>
         </div>
         </div>
       </div>

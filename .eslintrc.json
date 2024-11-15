@@ -1,0 +1,26 @@
+{
+  "extends": [
+    "react-app",                    // CRA's default config
+    "plugin:react/recommended",      // React linting rules
+    "plugin:react-hooks/recommended" // React Hooks linting rules
+  ],
+  "plugins": ["react", "react-hooks"],  // Use the React plugin and React Hooks plugin
+  "rules": {
+    "react/prop-types": "off",    // Disable prop-types validation if not using it
+    "react/react-in-jsx-scope": "off", // Not needed with React 17 or newer
+    "no-console": "warn",         // Warning for console.log statements
+    "semi": ["error", "always"]   // Enforce semicolons
+  },
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  }
+}
