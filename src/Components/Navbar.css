@@ -1,9 +1,9 @@
-*{
+* {
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
-}
-.navbar-container{
+  }
+  .navbar-container {
     width: 80%;
     height: 5rem;
     /* border: 3px solid black; */
@@ -13,8 +13,8 @@
     background-color: #fefae0;
     border-radius: 40px;
     border: 1px solid #001219;
-}
-.navbar-container .logo-container{
+  }
+  .navbar-container .logo-container {
     /* border: 2px solid red; */
     display: flex;
     justify-content: center;
@@ -22,39 +22,116 @@
     height: auto;
     width: auto;
     padding: 1rem;
-}
-.navbar-container .navbar-links-container{
+  }
+  .navbar-container .navbar-links-container {
     /* border: 3px solid red; */
     height: auto;
     width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.navbar-container .navbar-links-container ul{
+  }
+  .navbar-container .navbar-links-container ul {
     display: flex;
-}
-.navbar-container .navbar-links-container ul li{
+  }
+  .navbar-container .navbar-links-container ul li {
     list-style-type: none;
     padding: 10px;
     margin-right: 1rem;
-}
-.navbar-container .navbar-links-container ul li a {
+  }
+  .navbar-container .navbar-links-container ul li a {
     text-decoration: none;
     padding: 10px;
     color: black;
     border-radius: 3px;
     transition: 0.3s;
-}
-.navbar-container .navbar-links-container ul li .active{
+  }
+  .navbar-container .navbar-links-container ul li .active {
     background-color: #001219;
     color: #fefae0;
-}
-.navbar-container .navbar-links-container ul li a:hover{
+  }
+  .navbar-container .navbar-links-container ul li a:hover {
     background-color: #001219;
     color: #fefae0;
-}
-.navbar-container .logo-container h4{
+  }
+  .navbar-container .logo-container h4 {
     font-size: 1.5rem;
     color: rgb(0, 0, 0);
-}
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* Responsive CSS Code */
+  
+  @media (max-width: 480px) {
+    .navbar-container {
+      /* width: 80%;
+      height: 5rem;
+      border: 3px solid black;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #fefae0;
+      border-radius: 40px;
+      border: 1px solid #001219; */
+      display: none;
+    }
+    .navbar-container .logo-container {
+      /* border: 2px solid red; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: auto;
+      width: auto;
+      padding: 1rem;
+    }
+    .navbar-container .navbar-links-container {
+      /* border: 3px solid red; */
+      height: auto;
+      width: 80%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .navbar-container .navbar-links-container ul {
+      display: flex;
+    }
+    .navbar-container .navbar-links-container ul li {
+      list-style-type: none;
+      padding: 10px;
+      margin-right: 1rem;
+    }
+    .navbar-container .navbar-links-container ul li a {
+      text-decoration: none;
+      padding: 10px;
+      color: black;
+      border-radius: 3px;
+      transition: 0.3s;
+    }
+    .navbar-container .navbar-links-container ul li .active {
+      background-color: #001219;
+      color: #fefae0;
+    }
+    .navbar-container .navbar-links-container ul li a:hover {
+      background-color: #001219;
+      color: #fefae0;
+    }
+    .navbar-container .logo-container h4 {
+      font-size: 1.5rem;
+      color: rgb(0, 0, 0);
+    }
+  }
+  

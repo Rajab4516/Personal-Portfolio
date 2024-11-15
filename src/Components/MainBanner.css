@@ -88,3 +88,118 @@
     border-radius: 10px;
     padding: 5px 8px;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive CSS Code */
+
+@media (max-width: 480px) {
+.main-banner-container {
+  width: 100%;
+  height: 50vh;
+  /* border: 10px solid tomato; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-main-container {
+  /* border:5px solid rgb(3, 189, 52); */
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  /* background-color: #a8e6cf; */
+  padding: 3rem;
+}
+.main-banner-container .main-banner-container-col-1 {
+  width: 50%;
+  height: 100%;
+  /* border: 3px solid brown; */
+  background-color: #a8dadc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-banner-container .main-banner-container-col-2 {
+  width: 50%;
+  height: 100%;
+  /* border: 3px solid brown; */
+  background-color: #457b9d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-banner-container
+  .main-banner-container-col-1
+  .main-banner-container-col-1-content {
+  border: 3px solid black;
+  width: 100%;
+  height: 50%;
+  position: relative;
+  /* overflow: hidden; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-banner-container
+  .main-banner-container-col-1
+  .main-banner-container-col-1-content
+  #banner-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.main-banner-container
+  .main-banner-container-col-2
+  .main-banner-container-col-2-content {
+  border: 3px solid black;
+  width: 70%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-banner-container
+  .main-banner-container-col-2
+  .main-banner-container-col-2-content
+  p {
+  color: #fefae0;
+  font-weight: 500;
+  font-size: 1.3rem;
+  word-spacing: 0.7rem;
+  line-height: 2.5rem;
+  text-align: justify;
+}
+.main-banner-container
+  .main-banner-container-col-2
+  .main-banner-container-col-2-content
+  p #rajab-name{
+    font-size: 2.5rem;
+    background-color: #001219;
+    border-radius: 10px;
+    padding: 5px 8px;
+  }
+
+}
