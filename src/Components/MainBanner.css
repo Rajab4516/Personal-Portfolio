@@ -29,8 +29,8 @@
 .main-banner-container .main-banner-container-col-1 {
   width: 50%;
   height: 100%;
-  /* border: 3px solid brown; */
-  background-color: #a8dadc;
+  border: 3px solid brown;
+  background-color: #fdffb6;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,7 +39,7 @@
   width: 50%;
   height: 100%;
   /* border: 3px solid brown; */
-  background-color: #457b9d;
+  background-color: #c7522a;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -49,7 +49,7 @@
   .main-banner-container-col-1-content {
   /* border: 3px solid black; */
   width: 70%;
-  height: 70%;
+  height: 70%
 }
 .main-banner-container
   .main-banner-container-col-1
@@ -62,32 +62,54 @@
   .main-banner-container-col-2
   .main-banner-container-col-2-content {
   /* border: 3px solid rgb(173, 37, 37); */
-  width: 70%;
+  width: 80%;
   height: auto;
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
+}
+.main-banner-container
+  .main-banner-container-col-2
+  .main-banner-container-col-2-content
+  h1 {
+  color: #fdffb6;
+  text-transform: capitalize;
+  font-size: 3rem;
 }
 .main-banner-container
   .main-banner-container-col-2
   .main-banner-container-col-2-content
   p {
-  color: #fefae0;
-  font-weight: 500;
-  font-size: 1.3rem;
-  word-spacing: 0.7rem;
-  line-height: 2.5rem;
+  color: #fbf2c4;
+  text-transform: capitalize;
+  margin-top: 1rem;
   text-align: justify;
+  font-size: 15px;
 }
 .main-banner-container
   .main-banner-container-col-2
   .main-banner-container-col-2-content
-  p #rajab-name{
-    font-size: 2.5rem;
-    background-color: #001219;
-    border-radius: 10px;
-    padding: 5px 8px;
-  }
+  #hireMeButton{
+  width: 7rem;
+  height: 2rem;
+  font-size: 0.9rem;
+  margin-top: 1.5rem;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  font-weight: 600;
+  border-radius: 2px;
+  transition: 0.4s;
+  color: #fdffb6;
+  background-color: #141e26;
+}
+.main-banner-container
+  .main-banner-container-col-2
+  .main-banner-container-col-2-content
+  #hireMeButton:hover{
+    background-color: #fdffb6;
+    color: #141e26;
+}
 
 
 
@@ -133,11 +155,12 @@
   width: 50%;
   height: 100%;
   /* border: 3px solid brown; */
+  align-items: last baseline;
 }
 .main-banner-container .main-banner-container-col-2 {
   width: 50%;
   height: 100%;
-  /* border: 3px solid brown; */
+  align-items: last baseline;
 }
 .main-banner-container
   .main-banner-container-col-1
@@ -150,6 +173,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 2.5rem;
 }
 .main-banner-container
   .main-banner-container-col-1
@@ -166,24 +190,30 @@
   width: 100%;
   height: auto;
   padding: 0.5rem;
+  margin-bottom: 2.5rem;
+}
+.main-banner-container
+  .main-banner-container-col-2
+  .main-banner-container-col-2-content
+  h1 {
+  color: #fdffb6;
+  text-transform: capitalize;
+  font-size: 0.7rem;
 }
 .main-banner-container
   .main-banner-container-col-2
   .main-banner-container-col-2-content
   p {
-  font-weight: 400;
-  font-size: 10px;
-  word-spacing: 0px;
-  line-height: normal;
-  text-align: justify;
+  margin-top: 0.4rem;
+  font-size: 7px;
 }
 .main-banner-container
   .main-banner-container-col-2
   .main-banner-container-col-2-content
-  p #rajab-name{
-    font-size: 14px;
-    background-color: transparent;
-    color: rgb(255, 187, 0);
+  #hireMeButton{
+  width: 3rem;
+  height: 1rem;
+  font-size: 8px;
+  margin-top: 0.5rem;
   }
-
 }

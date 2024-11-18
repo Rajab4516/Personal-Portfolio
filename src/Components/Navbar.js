@@ -4,7 +4,7 @@ import './Navbar.css';
 export default function Navbar() {
   const [barsButton, setBarsButton] = useState({
     left: '-90%',
-    borderBottomRightRadius: '0%'
+    // borderBottomRightRadius: '0%'
   });
 
   const [closeButton] = useState();
@@ -13,7 +13,7 @@ export default function Navbar() {
     if (barsButton.left === '-90%') {
       setBarsButton({
         left: '0%',
-        borderBottomRightRadius: '100%'
+        // borderBottomRightRadius: '100%'
       })
       // console.log("Bars Button Clicked!");
     }
@@ -23,7 +23,7 @@ export default function Navbar() {
     if (barsButton.left === '0%') {
       setBarsButton({
         left: '-90%',
-        borderBottomRightRadius: '100%'
+        // borderBottomRightRadius: '100%'
       })
       // console.log("Close Button Clicked!");
     }
