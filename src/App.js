@@ -1,12 +1,13 @@
 import './App.css';
 import MainBanner from './Components/MainBanner';
-import '@fortawesome/fontawesome-free/css/all.min.css';
+import Skills from './Components/Skills';
 
 
 function App() {
   return (
     <>
       <MainBanner/>
+      <Skills/>
     </>
   );
 }

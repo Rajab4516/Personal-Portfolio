@@ -11,7 +11,7 @@ export default function MainBanner() {
       <div className="main-banner-container">
         <div className="main-banner-container-col-2">
         <div className="main-banner-container-col-2-content">
-          <h1>Your vision, brought to life online</h1>
+          <h1>Your vision, <span> brought to life </span>online</h1>
           <p>I'm Rajab, a Web Developer devoted to creating intuitive, visually captivating, and responsive digital experiences. By blending modern technology with a user-first approach, I transform ideas into impactful web solutions.</p>
           <button id='hireMeButton' type='button'>Hire Me</button>
         </div>
