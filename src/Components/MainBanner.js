@@ -1,7 +1,7 @@
 import React from 'react';
 import './MainBanner.css';
 import Navbar from './Navbar';
-import BannerImage from './images/image2.png'
+import BannerImage from './images/image5.png'
 export default function MainBanner() {
   return (
     <>

@@ -34,7 +34,8 @@
   width: 50%;
   height: 100%;
   /* border: 3px solid brown; */
-  background-color: #fdffb6;
+  /* background-color: #fdffb6; */
+  background-color: #f1faee;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,7 +44,8 @@
   width: 50%;
   height: 100%;
   /* border: 3px solid brown; */
-  background-color: #c7522a;
+  /* background-color: #c7522a; */
+  background-color: #d268cc;
   display: flex;
   justify-content: center;
   align-items: center;
