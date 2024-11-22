@@ -44,8 +44,8 @@
   width: 50%;
   height: 100%;
   /* border: 3px solid brown; */
-  /* background-color: #c7522a; */
-  background-color: #d268cc;
+  background-color: #c7522a;
+  /* background-color: #d268cc; */
   display: flex;
   justify-content: center;
   align-items: center;
