@@ -8,69 +8,109 @@
     font-style: normal;
 }
 .skills-main-container-title{
-    border: 3px solid black;
+    background: #f1faee;
+    /* border: 3px solid black; */
     width: 100%;
     height: auto;
-    margin: 1rem 0rem 1rem 0rem;
+    padding: 1rem 0rem 1rem 0rem;
     text-align: center;
 }
 .skills-main-container{
     width: 100%;
     height: auto;
-    border: 10px solid brown;
-    display: grid;
+    /* border: 10px solid blue; */
+    background: #f1faee;
+
+    overflow: hidden;
 }
-.skills-main-container .skills-row{
+.skills-main-container .row{
     width: 100%;
-    height: auto;
-    border: 10px solid blue;
+    height: 20rem;
+    /* border: 5px solid olivedrab; */
+    margin-bottom: 2rem;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 1rem 0rem 1rem 0rem;
 }
-.skills-main-container .skills-row .skills-card{
-    border: 1px solid black;
-    border-radius: 5px;
-    width: 35%;
-    height: auto;
-}
-.skills-main-container .skills-row .skills-card .logo-and-title-container{
-    border: 2px solid;
-    width: 100%;
-    height: 6rem;
+.skills-main-container .row .col{
+    width: 40%;
+    height: 19rem;
+    background-color: #ffffff;
+    border-radius: 10px;
     display: flex;
-    overflow: hidden;
-    /* justify-content: space-around; */
-}
-.skills-main-container .skills-row .skills-card .logo-and-title-container img{
-    width: auto;
-    height: auto;
-}
-.skills-main-container .skills-row .skills-card .logo-and-title-container .skill-title-container{
-    display: flex;
-    align-items: center;
     justify-content: center;
-    /* border: 3px solid yellowgreen; */
-    /* width: 100%;
-    height: 2rem; */
-    position: relative;
+    align-items: center;
+    transition: 0.3s;
+    /* border: 1px solid rgb(97, 97, 97); */
+    box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.67);
+-webkit-box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.67);
+-moz-box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.67);
 }
-.skills-main-container .skills-row .skills-card .text-container{
-    border: 2px solid;
+.skills-main-container .row .col .skill-logo-container{
+    width: 30%;
+    height: 80%;
+    /* border: 2px solid green; */
+    border-radius: 10px;
+    position: relative;
+    right: 6rem;
+    background-color: #0d1b2a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skills-main-container .row .col .skill-logo-container img{
+    width: 60%;
+    height: auto;
+}
+.skills-main-container .row .col .skill-text-and-button-container{
+    width: 60%;
+    height: 90%;
+    margin-left: -2rem;
+    /* border: 2px solid green; */
+    border-radius: 10px;
+    padding: 2rem 0rem 0rem 0rem;
+}
+.skill-text-and-button-container .skill-title{
+    /* border: 2px solid white; */
     width: 100%;
-    height: 10rem;
-    padding: 1rem;
+    height: auto;
+    margin-bottom: 1rem;
+}
+.skill-text-and-button-container .skill-title h1{
+    font-size: 2.5rem;
+    color: #000000;
+}
+.skill-text-and-button-container .skill-description{
+    /* border: 2px solid white; */
+    width: 100%;
+    height: auto;
+    text-align: justify;
     font-size: 15px;
     font-weight: 500;
-    text-align: justify;
+    padding: 5px;
 }
-.skills-main-container .skills-row .skills-card .buttons-container{
-    border: 2px solid;
+.skill-text-and-button-container .skill-description p{
+    color: #000000;
+}
+.skill-text-and-button-container .skill-button{
+    /* border: 2px solid white; */
     width: 100%;
-    height: 4rem;
-    background-color: rgb(0, 0, 0);
+    height: auto;
+    margin-top: 1rem;
 }
-.skills-main-container .skills-row .skill-1{
-    background-color: rgb(255, 255, 255);
+.skill-text-and-button-container .skill-button button{
+    border: none;
+    outline: none;
+    text-align: center;
+    padding: 8px 20px;
+    cursor: pointer;
+    margin: 5px;
+    background-color: #eb5e28;
+    color: #ffffff;
+    font-size: 15px;
+    border-radius: 3px;
+    transition: 0.4s;
+}
+.skill-text-and-button-container .skill-button button:hover{
+    background-color: #000000;
 }
