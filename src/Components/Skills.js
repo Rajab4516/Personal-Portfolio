@@ -6,14 +6,17 @@ import javascriptLogoIcon from './images/javascript.png';
 import reactLogoIcon from './images/react2.png';
 import phpLogoIcon from './images/php1.png';
 import mysqlLogoIcon from './images/mysql.png';
+import shopifyLogoIcon from './images/shopify1.png';
+import wordpressLogoIcon from './images/wordpress.png';
 
 export default function Skills() {
   return (
     <>
     {/*Skills Parent Container Title*/}
-    <div className="skills-main-container-title"><h1>My Expertise</h1></div>
+    <div className="skills-main-container-title"><h1>Field of Expertise</h1></div>
     {/*Skills Parent Container*/}
     <div className="skills-main-container">
+      {/*Skills ROW-1*/}
       <div className="row-1 row">
         {/*Skills COL-1*/}
         <div className="col-1 col">
@@ -46,6 +49,7 @@ export default function Skills() {
           </div>
         </div>
       </div>
+      {/*Skills ROW-2*/}
       <div className="row-2 row">
         {/*Skills COL-3*/}
         <div className="col-3 col">
@@ -78,6 +82,7 @@ export default function Skills() {
           </div>
         </div>
       </div>
+      {/*Skills ROW-3*/}
       <div className="row-3 row">
         {/*Skills COL-5*/}
         <div className="col-5 col">
@@ -103,6 +108,39 @@ export default function Skills() {
             <div className='skill-title'><h1>MySQL</h1></div>
             <div className="skill-description">
               <p>Skilled in MySQL, proficient in designing and managing relational databases. Experienced in writing optimized queries, ensuring data integrity, and creating scalable database architectures for web applications.</p>
+            </div>
+            <div className="skill-button">
+              <button type="button">Read More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/*Skills ROW-4*/}
+      <div className="row-4 row">
+        {/*Skills COL-7*/}
+        <div className="col-7 col">
+          <div className="skill-logo-container">
+            <img src={shopifyLogoIcon} alt="" />
+          </div>
+          <div className="skill-text-and-button-container">
+            <div className='skill-title'><h1>Shopify</h1></div>
+            <div className="skill-description">
+              <p>Experienced in Shopify development, specializing in customizing themes, optimizing storefronts, and integrating apps. Skilled in creating user-friendly eCommerce solutions that enhance functionality and drive sales.</p>
+            </div>
+            <div className="skill-button">
+              <button type="button">Read More</button>
+            </div>
+          </div>
+        </div>
+        {/*Skills COL-7*/}
+        <div className="col-8 col">
+          <div className="skill-logo-container">
+            <img src={wordpressLogoIcon} alt="" />
+          </div>
+          <div className="skill-text-and-button-container">
+            <div className='skill-title'><h1>WordPress</h1></div>
+            <div className="skill-description">
+              <p>Proficient in WordPress development, specializing in theme customization, plugin integration, and optimizing website performance. Skilled in creating responsive, user-friendly, and feature-rich websites tailored to client needs.</p>
             </div>
             <div className="skill-button">
               <button type="button">Read More</button>
