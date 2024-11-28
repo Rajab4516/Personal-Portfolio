@@ -239,3 +239,112 @@
   margin-top: 0.5rem;
   }
 }
+
+
+
+
+
+
+
+
+/* Styles for tablets in portrait mode */
+@media (max-width: 768px) {
+.main-banner-container {
+  height: 45vh;
+  /* border: 10px solid tomato; */
+}
+.navbar-main-container {
+  /* border:5px solid rgb(3, 189, 52); */
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  /* background-color: #a8e6cf; */
+  padding: 2rem;
+}
+.main-banner-container .main-banner-container-col-1 {
+  width: 50%;
+  height: 100%;
+  /* border: 3px solid brown; */
+  align-items: center;
+}
+.main-banner-container .main-banner-container-col-2 {
+  width: 50%;
+  height: 100%;
+  align-items: center;
+}
+.main-banner-container
+  .main-banner-container-col-1
+  .main-banner-container-col-1-content {
+  /* border: 3px solid black; */
+  width: 100%;
+  height: 50%;
+  position: relative;
+  /* overflow: hidden; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0px;
+}
+.main-banner-container
+  .main-banner-container-col-1
+  .main-banner-container-col-1-content
+  #banner-image {
+  width: 130%;
+  height: 130%;
+  object-fit: contain;
+}
+.main-banner-container
+  .main-banner-container-col-2
+  .main-banner-container-col-2-content {
+  /* border: 3px solid black; */
+  width: 100%;
+  height: auto;
+  padding: 0.5rem;
+  /* margin-bottom: 2.5rem; */
+}
+.main-banner-container
+  .main-banner-container-col-2
+  .main-banner-container-col-2-content
+  h1 {
+  color: #fdffb6;
+  text-transform: capitalize;
+  font-size: 1.1rem;
+  margin: 0.5rem;
+}
+.main-banner-container
+  .main-banner-container-col-2
+  .main-banner-container-col-2-content
+  h1 span{
+  color: #fdffb6;
+  background-color: transparent;
+  padding: 0px;
+}
+.main-banner-container
+  .main-banner-container-col-2
+  .main-banner-container-col-2-content
+  p {
+  /* margin-top: 0.4rem; */
+  font-size: 10px;
+  margin: 0.5rem;
+}
+.main-banner-container
+  .main-banner-container-col-2
+  .main-banner-container-col-2-content
+  #hireMeButton{
+  width: 6rem;
+  height: 1.4rem;
+  font-size: 12px;
+  /* margin-top: 0.5rem;
+   */
+   margin: 0.5rem;
+  }
+}
+
+
+
+/* Styles for tablets in landscape mode */
+@media (min-width: 769px) and (max-width: 1024px) {
+}
